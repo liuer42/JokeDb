@@ -2,7 +2,7 @@
 using Android.OS;
 using Android.Content.PM;
 
-namespace Todo
+namespace JokeDb
 {
     [Activity(Label = "Todo", Icon = "@drawable/icon", Theme = "@style/MainTheme", MainLauncher = true,
         ConfigurationChanges = ConfigChanges.ScreenSize | ConfigChanges.Orientation)]

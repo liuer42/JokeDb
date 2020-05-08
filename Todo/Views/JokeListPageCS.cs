@@ -1,6 +1,6 @@
 ﻿using Xamarin.Forms;
 
-namespace Todo
+namespace JokeDb
 {
     public class JokeListPageCS : ContentPage
     {

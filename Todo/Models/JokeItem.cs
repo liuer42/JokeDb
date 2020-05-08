@@ -1,6 +1,6 @@
 ﻿using SQLite;
 
-namespace Todo
+namespace JokeDb
 {
     public class JokeItem
     {

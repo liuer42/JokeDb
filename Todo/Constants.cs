@@ -1,7 +1,7 @@
 ﻿using System;
 using System.IO;
 
-namespace Todo
+namespace JokeDb
 {
     public static class Constants
     {

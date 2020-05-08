@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Threading.Tasks;
 
-namespace Todo
+namespace JokeDb
 {
     public static class TaskExtensions
     {

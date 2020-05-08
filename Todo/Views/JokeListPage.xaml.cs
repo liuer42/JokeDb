@@ -1,11 +1,13 @@
 ﻿using System;
 using Xamarin.Forms;
+using Xamarin.Forms.Xaml;
 
-namespace Todo
+namespace JokeDb.Views
 {
-    public partial class TodoListPage : ContentPage
+    [XamlCompilation(XamlCompilationOptions.Compile)]
+    public partial class JokeListPage : ContentPage
     {
-        public TodoListPage()
+        public JokeListPage()
         {
             InitializeComponent();
         }
@@ -19,7 +21,7 @@ namespace Todo
 
         async void OnItemAdded(object sender, EventArgs e)
         {
-            await Navigation.PushAsync(new TodoItemPage
+            await Navigation.PushAsync(new JokeItemPageCS
             {
                 BindingContext = new JokeItem()
             });
@@ -29,7 +31,7 @@ namespace Todo
         {
             if (e.SelectedItem != null)
             {
-                await Navigation.PushAsync(new TodoItemPage
+                await Navigation.PushAsync(new JokeItemPageCS
                 {
                     BindingContext = e.SelectedItem as JokeItem
                 });

@@ -3,7 +3,7 @@ using Foundation;
 using Xamarin.Forms;
 using Xamarin.Forms.Platform.iOS;
 
-namespace Todo
+namespace JokeDb
 {
 	[Register("AppDelegate")]
 	public partial class AppDelegate : FormsApplicationDelegate

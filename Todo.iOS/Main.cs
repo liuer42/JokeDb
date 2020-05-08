@@ -1,6 +1,6 @@
 using UIKit;
 
-namespace Todo
+namespace JokeDb
 {
 	public class Application
 	{
